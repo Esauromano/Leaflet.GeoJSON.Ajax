@@ -47,7 +47,7 @@
 					attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
 				}),
 				new L.GeoJSON.Ajax({
-					urlGeoJSON: 'capitals.json',
+					urlGeoJSON: 'https://brknrbt.cloudant.com/ib/_design/ok/_list/FeatureCollection/archivo',
 					autosetBounds: true //Even though autosetBounds == true we must provide a center + zoom upon creation of the map
 				})
 			],
